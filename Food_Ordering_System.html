@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food_Ordering_System</title>
+    <style>
+      nav{background-color:coral;display: flex;justify-content: space-between; align-items: center;position:fixed;width: 98%;}
+      .Dropdown{display:block;position: relative;}
+      section{display: flex;justify-content: space-evenly;padding-top: 70px;background-color:darksalmon;}
+     
+      h6{background-color:saddlebrown;width: fit-content;color: white;}
+      .SecondC1{background-color: chocolate;}
+      .discount{display: flex;justify-content: space-evenly;}
+      .discount1{padding-top: 15px;}
+      
+      .content{display: flex;justify-content: space-evenly;background-color: antiquewhite;}
+      .fresh{display: flex;justify-content: space-evenly}
+      .fresh1{padding-top: 10px;}
+      .home{display: flex;justify-content: space-evenly}
+      .home1{padding-top: 10px;}
+      .SecondC2{background-color:chocolate;}
+      .button2{text-align: center;background-color:salmon;}
+      
+      footer{display: flex;justify-content: space-evenly;padding-top: 20px;background-color: antiquewhite;}
+      .foot{display: flex;}
+
+      .Images{
+        display: grid;
+        background-color:black;
+        border: solid black;
+        grid-template-columns: 200px 150px 150px 190px;
+        grid-template-rows: auto;
+        grid-gap:1px;
+        grid-template-areas:"b c c a"
+        "d e e f" "m h h f " "l j k i " " g g n n ";
+    
+    }
+    .Images Img{
+      transition: 1s ease;
+    }
+    .Images Img:hover{
+      border-radius: 50%;
+      transition: 1s ease;
+    }
+    
+    @media screen and (max-width:280px){
+      nav{width: 40%;}
+      .content{flex-direction: column;width:60%;}
+      footer{flex-direction: column;}
+      section{flex-direction: column;width:60%;}
+      .Food{width: 100%;}
+      
+
+    }
+    @media screen and (max-width:600px){
+      nav{width: 79%;}
+      .content{flex-direction: column;}
+      footer{flex-direction: column;}
+      section{flex-direction: column;}
+      .Food{width: 100%;}
+      
+
+    }
+    
+  
+         .A{
+             grid-area:a;
+             height: 100px;
+             width: 148px;
+             }
+         .B{
+             grid-area:b;
+             height: 100px;
+             width: 200px;
+             }
+         .C{
+            grid-area:c;
+            height: 100px;
+            width: 300px;
+             }
+              .D{
+                grid-area:d;
+                height: 200px;
+                width: 200px;
+                }
+                .E{
+                  grid-area:e;
+                  height: 200px;
+                  width: 300px;
+                  }
+                  .F{
+                    grid-area:f;
+                    height: 300px;
+                    width: 148px;
+                    }
+                    .G{
+                      grid-area:g;
+                      height: 100px;
+                      width: 350px;
+                      }
+                      .H{
+                        grid-area:h;
+                        height: 100px;
+                        width: 300px;
+                        }
+                        .I{
+                          grid-area:i;
+                          height: 300px;
+                          width: 150px;
+                          }
+                          .J{
+                            grid-area:j;
+                            height: 300px;
+                            width: 150px;
+                            }
+                            .K{
+                              grid-area:k;
+                              height: 300px;
+                              width: 150px;
+                              }
+                              .L{
+                                grid-area:l;
+                                height: 300px;
+                                width: 200px;
+                                }
+                                .M{
+                                  grid-area:m;
+                                  height: 100px;
+                                  width: 200px;
+                                  }
+                                  .N{
+                                    grid-area:n;
+                                    height: 100px;
+                                    width: 300px;
+                                    }
+
+
+    </style>
+</head>
+<body>
+    <nav> <div class="foot">
+        <img src="/Images/1_FOOD/bibimbap (2).png" height="50px" width="50px"  alt="">  
+       <h3> Food Website</h3></div>
+           <img src="/Images/1_FOOD/menus.png" height="40px" width="40px" alt="">
+    </nav> 
+
+    <section class="bsecond">
+
+       <div   >
+           <img class="Food" src="/Images/1_FOOD/Complete_Food_1.jpg" height="250px" width="350px"  alt="">
+
+       </div>
+    
+    <div class="Second">
+        <h6>50% Off on All Products</h6>
+        <h1>Enjoy Your  <br> Delicious Food</h1>
+        <p> The only thing Everyone like better <br> than talking about Food is Eating.
+        </p>
+        <button class="SecondC1">Explore Now</button>
+    </div>
+</section>
+
+<div class="content" > 
+
+    <div class="discount">
+          <div>
+             <img class="discount1" src="/Images/1_FOOD/Discount_Coupon.png" height="40px" width="40px" alt="">
+          </div>
+          <div >
+           <p><strong> Discount Voucher</strong><br>
+             Enhance your snacking experience and stay healthy with this special discount.</p>
+          </div>
+    </div>
+
+    <div class="fresh">
+          <div >
+            <img class="fresh1" src="/Images/1_FOOD/fruit.png" height="40px" width="40px"  alt="">
+          </div>
+          <div>
+             <p><strong> Fresh Healthy Food </strong><br>
+            Fresh food are an important part of a healthy diet .</p>
+          </div>
+    </div>
+
+    <div class="home">
+          <div>
+            <img class="home1" src="/Images/1_FOOD/delivery.png"  height="40px" width="40px" alt="">
+          </div>
+          <div>
+            <p> <strong> Fast Home Delivery</strong><br>
+              Get your order delivered at your doorstep in minutes.</p>
+          </div>
+    </div>
+</div> <hr>
+
+<div class="button2">
+ <button class="SecondC2">Our Menu</button>
+ <p><strong> Explore Our Menu</strong></p>
+</div>
+
+
+<div class="Images"> 
+    <img class="A" src="/Images/1_FOOD/images (1).jpg" alt="">
+    <img class="B" src="/Images/1_FOOD/images (2).jpg" alt="">
+    <img class="C" src="/Images/1_FOOD/indian-1768906_640.jpg" alt="">
+    <img class="D" src="/Images/1_FOOD/goulash-6054131_640.jpg" alt="">
+    <img class="E" src="/Images/1_FOOD/istockphoto-1054228718-612x612.jpg" alt="">
+    <img class="F" src="/Images/1_FOOD/images (3).jpg" alt="">
+    <img class="G" src="/Images/1_FOOD/pumpkin-soup-3645375_640.jpg" alt="">
+    <img class="H" src="/Images/1_FOOD/food-5984718_640.jpg" alt="">
+    <img class="I" src="/Images/1_FOOD/cupcake-2749204_640.jpg" alt="">
+    <img class="J" src="/Images/1_FOOD/123.jpg" alt="">
+    <img class="K" src="/Images/1_FOOD/biryani-1141444_1280.jpg" alt="">
+    <img class="L" src="/Images/1_FOOD/food-2650675_640.jpg" alt="">
+    <img class="M" src="/Images/1_FOOD/food-577222_640.jpg" alt="">
+    <img class="N" src="/Images/1_FOOD/food-5885584_640.jpg" alt="">
+</div>
+
+
+<footer >
+  <div>
+    <div class="foot">
+    <img src="/Images/1_FOOD/bibimbap (2).png" height="70px" width="50px"  alt="">   <h3>Food Website</h3> </div>
+  </div>
+  <div>
+    <h3>Main Links</h3>
+    <p>Order Tracking</p>
+    <p>New Order</p>
+    <p>Contact Us</p>
+    <a href="#">News and blogs</a>
+  </div>
+  <div>
+    <h3>Support</h3>
+    <p>About Us</p>
+    <p>Privacy Policy</p>
+    <p>Terms & Conditions</p>
+  </div>
+  
+  <div>
+    <h3>Contact Us</h3>
+    <input type="email" name="" id="" placeholder="Enter Your Email">
+    <p><strong> Follow Us</strong></p>
+    <img src="/Images/1_FOOD/1_facebook.png" height="40px" width="40px" alt="">
+    <img src="/Images/1_FOOD/1_twitter.png" height="40px" width="40px" alt="">
+    <img src="/Images/1_FOOD/1_instagram.png" height="40px" width="40px" alt="">
+    <img src="/Images/1_FOOD/1_youtube.png" height="40px" width="40px" alt="">
+  </div>
+
+</footer>
+</body>
+</html>
