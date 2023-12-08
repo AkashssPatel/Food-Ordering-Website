@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Images {
+           /* height: 100vh;
+            width: 100wh;*/
+            display: grid;
+           /* background-color: white;*/
+            border: solid black;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            /*grid-template-rows: repeat(3,1fr);*/
+            grid-gap: 0.3%;
+            grid-template-areas:
+            "b c c a" 
+            "d e e l "
+            "d e e l"
+            "g h h l"
+            "f j k i"
+            "f j k i"
+            "m m n n"
+            ;
+
+        }
+        .Z{
+            width: 100%;
+            height: 100%;
+        }
+        .Z:hover{
+            transform: scale(1.02);
+        }
+        @media (max-width:600px){
+            .Images{
+                grid-template-columns: 1fr;
+            /*grid-template-rows: repeat(auto,1fr);*/
+            grid-template-areas:
+            "a" 
+            "b"
+            "c"
+            "d"
+            "e"
+            "f"
+            "g"
+            "h"
+            "i"
+            "j"
+            "k"
+            "l"
+            "m"
+            "n"
+            ;
+            } 
+        }
+
+        /*.Images Img {
+            transition: 1s ease;
+        }*/
+
+/*.Images Img:hover {
+            border-radius: 50%;
+            transition: 1s ease;
+        }*/
+
+        .A {
+            grid-area: a;
+        }
+
+        .B {
+            grid-area: b;
+        }
+
+        .C {
+            grid-area: c;
+        }
+
+        .D {
+            grid-area: d;
+        }
+
+        .E {
+            grid-area: e;
+        }
+
+        .F {
+            grid-area: f;
+        }
+
+        .G {
+            grid-area: g;
+        }
+
+        .H {
+            grid-area: h;
+        }
+
+      .I {
+            grid-area: i;
+        }
+
+        .J {
+            grid-area: j;
+
+        }
+
+        .K {
+            grid-area: k;
+        }
+
+        .L {
+            grid-area: l;
+        }
+
+         .M {
+            grid-area: m;
+        }
+
+        .N {
+            grid-area: n;
+        } 
+    </style>
+</head>
+
+<body>
+    <div class="Images">
+        <div class="A " >
+            <img class="Z" src="/Images/1_FOOD/images (1).jpg" alt="">
+        </div>
+        <div class="B " >
+            <img class="Z" src="/Images/1_FOOD/images (2).jpg" alt="">
+        </div>
+        <div class="C ">
+            <img class="Z" src="/Images/1_FOOD/indian-1768906_640.jpg" alt="">
+        </div>
+        <div class="D " >
+            <img class="Z" src="/Images/1_FOOD/goulash-6054131_640.jpg" alt="">
+        </div>
+        <div class="E " >
+
+            <img class="Z" src="/Images/1_FOOD/istockphoto-1054228718-612x612.jpg" alt="">
+        </div> 
+        <div class="F " >
+
+            <img class="Z" src="/Images/1_FOOD/images (3).jpg" alt="">
+        </div>
+        <div class="G " >
+
+            <img class="Z" src="/Images/1_FOOD/food-577222_640.jpg" alt="">
+        </div>
+       
+        <div class="H " >
+
+            <img class="Z" src="/Images/1_FOOD/food-5984718_640.jpg" alt="">
+        </div>
+
+         <div class="I " >
+
+            <img class="Z" src="/Images/1_FOOD/cupcake-2749204_640.jpg" alt="">
+        </div>
+        
+        <div class="J " >
+
+            <img class="Z" src="/Images/1_FOOD/123.jpg" alt="">
+        </div>
+        <div class="K " >
+
+            <img class="Z" src="/Images/1_FOOD/biryani-1141444_1280.jpg" alt="">
+        </div>
+        <div class="L " >
+
+            <img class="Z" src="/Images/1_FOOD/food-2650675_640.jpg" alt="">
+        </div> 
+        <div class="M " >
+
+            <img class="Z" src="/Images/1_FOOD/pumpkin-soup-3645375_640.jpg" alt="">
+        </div>
+        
+        <div class="N " >
+            <img class="Z" src="/Images/1_FOOD/food-5885584_640.jpg" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
